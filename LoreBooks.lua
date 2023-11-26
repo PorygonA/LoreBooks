@@ -1925,10 +1925,10 @@ local function CreateEideticLorebookLocation()
     local zf = '"z"' -- used for zone bookshelf
     if isDungeon then
       outText = string.format("[%d] = { [%s] = %s, [%s] = %s, [%s] = { [1] = { [%s] = %.10f, [%s] = %.10f, [%s] = %d, [%s] = %s, }, }, }, { [%s] = %d, [%s] = %.10f, [%s] = %.10f }, -- %s",
-        shownBookId, cnf, '"'.. collectionName .. '"', nf, '"'.. bookName .. '"', ef, pxf, xpos, pyf, ypos, mdf, mapId, df, tostring(isDungeon), smf, mapId, pnxf, x, pnyf, y, zone)
+        shownBookId, cnf, '"' .. collectionName .. '"', nf, '"' .. bookName .. '"', ef, pxf, xpos, pyf, ypos, mdf, mapId, df, tostring(isDungeon), smf, mapId, pnxf, x, pnyf, y, zone)
     else
       outText = string.format("[%d] = { [%s] = %s, [%s] = %s, [%s] = { [1] = { [%s] = %.10f, [%s] = %.10f, [%s] = %d, }, }, }, { [%s] = %d, [%s] = %.10f, [%s] = %.10f }, -- %s",
-        shownBookId, cnf, '"'.. collectionName .. '"', nf, '"'.. bookName .. '"', ef, pxf, xpos, pyf, ypos, mdf, mapId, smf, mapId, pnxf, x, pnyf, y, zone)
+        shownBookId, cnf, '"' .. collectionName .. '"', nf, '"' .. bookName .. '"', ef, pxf, xpos, pyf, ypos, mdf, mapId, smf, mapId, pnxf, x, pnyf, y, zone)
     end
     -- the bookshelf data uses the zoneId to determine the icon
     if isBookshelf then
