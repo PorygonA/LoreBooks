@@ -2,7 +2,7 @@ LibLoreLibrary = LibLoreLibrary or {}
 
 local lib = LibLoreLibrary
 
-lib.data[101040] = {
+lib.data[101041] = {
   [1] = {
     [1] = {
       ["g"] = "/esoui/art/treeicons/gamepad/gp_lorelibrary_categoryicon_places.dds",
