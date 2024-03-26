@@ -7,7 +7,7 @@
 ## SavedVariables: LBooks_SavedVariables
 ## DependsOn: LibAddonMenu-2.0>=36 LibMapPins-1.0>=10038 CustomCompassPins>=32 LibGPS>=69 LibCustomMenu>=713
 ## DependsOn: LibLoreLibrary>=1 LibMapData>=111
-## OptionalDependsOn: LibDebugLogger>=220 DebugLogViewer>=558
+## OptionalDependsOn: LibDebugLogger>=263 DebugLogViewer>=558
 
 Constants.lua
 
